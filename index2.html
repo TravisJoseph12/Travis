@@ -3,44 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>
+    <title>Answers</title>
+    
+    </style>
 </head>
-<style>
-    body{
-        padding: 10px auto;
-        text-align: center;
-        background-color: rgb(255, 255, 255);
-        font-family: sans-serif;
-        letter-spacing: 2px;
-        word-spacing: 5px;
-    }
-    h3{
-        text-decoration: underline;
-        font-size: 30px;
-        padding: 5px;
-        background-color: cadetblue;
-    }
-    h3:hover{
-        text-decoration: underline;
-        font-size: 30px;
-        padding: 5px;
-        background-color: rgb(29, 138, 29);
-    }
-</style>
 <body>
-    <h4>are of a triangle</h4>
-    <h3 id="area">see area</h3>
-    <button onclick="{area()}">click to see area</button>
-    <br>
+    <div>
+    <h2>Area of Triangle</h2>
+    <h3 id="area">See area</h3>
+    <button onclick="{area()}">Area</button>
+    </div>
 
-    <h4>volume of a triangle</h4>
-    <h3 id="volume">see volume</h3>
-    <button onclick="{volume()}">click to see volume</button>
-    <br>
+    <div>
+    <h2>Volume of cylinder</h2>
+    <h3 id="volume">See volume</h3>
+    <button onclick="{volume()}">Volume</button>
+    </div>
 
-    <h4>bmi</h4>
-    <h3 id="bmi">see bmi</h3>
-    <button onclick="{bmi()}">click to see bmi</button>
-    <br>
+    <div>
+        <h2>Giving Bmi</h2>
+        <h3 id="bmi">See bmi</h3>
+        <button onclick="{bmi()}">Bmi</button>
+    </div>
+
+    <div>
+        <h2>Calculating Simple interest</h2>
+        <h3 id="Simpleinterest">See Amount</h3>
+        <button onclick="{Simpleinterest()}">Interest</button>
+    </div>
+    
+    <div>
+        <h2>Checking Agelimit</h2>
+        <h3 id="greaterno">See greater number</h3>
+        <button onclick="{greaterno()}">Greater number</button>
+    </div>
+   
+    <script src="functions.js"></script>
 </body>
 </html>
