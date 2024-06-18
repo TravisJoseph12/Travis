@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<style>
+    body{
+        padding: 10px auto;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+    h1,h2{
+        text-decoration: underline;
+        font-size: 30px;
+        padding: 5px;
+        background-color: cadetblue;
+    }
+    h1,h2:hover{
+        text-decoration: underline;
+        font-size: 30px;
+        padding: 5px;
+        background-color: rgb(29, 138, 29);
+    }
+</style>
+<body>
+    <h1>Travis</h1>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime perferendis, dolor sequi, rem illo voluptate, reiciendis quo explicabo delectus possimus accusamus cupiditate. Quod fugiat laboriosam necessitatibus, facere iusto ut incidunt!</p>
+     <br>
+     <h2>Cyber Engineering</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perspiciatis nobis porro atque eius deleniti placeat in. Aliquam, laborum a harum animi impedit tempora omnis quisquam, nisi voluptas nihil natus.</p>
+     <br>
+     
+     <p id="more" style="color: rgb(104, 76, 7);"></p>
+     <input type="button" value="SUBMIT" onclick="document.getElementById('more').innerHTML=more">
+     <h1 id="clickedTimes"></h1>
+     <button onclick="document.getElementById('clickedTimes').innerHTML=counter++">clickedTimes</button>
+     <h1 id="clickedTimes"></h1>
+     <button onclick="document.getElementById('clickedTimes').innerHTML=counter--">reduce
+    
+    </button>
+     <script>
+        let more="check my cv";
+        let counter=0;
+     </script>
+     <script src="main.js"></script>
+</body>
+</html>
