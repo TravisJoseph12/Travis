@@ -7,7 +7,7 @@
 
 // division()
 
-//calculate area of triangle
+// calculate area of triangle
 function area(){
     let areatri=document.getElementById('area')
     let he=36
@@ -17,7 +17,7 @@ function area(){
     
 }
 
-
+// calculate volume of triangle
 function volume(){
     let vol=document.getElementById('volume')
     let pi=3.14
@@ -27,6 +27,7 @@ function volume(){
     vol.innerHTML=volume;
 }
 
+// calculate bmi of triangle
 function bmi(){
     let Bmi=document.getElementById('bmi')
     let weight=625
@@ -35,6 +36,7 @@ function bmi(){
     Bmi.innerHTML=bmi;
 }
 
+// calculate simple interest of triangle
 function Simpleinterest(){
     let interest=document.getElementById('Simpleinterest')
     let principal=10000
@@ -44,6 +46,7 @@ function Simpleinterest(){
     interest.innerHTML=Simpleinterest;
 }
 
+// calculate greater no of triangle
 function greaterno(){
     let greater=document.getElementById('greaterno')
     let a=35
